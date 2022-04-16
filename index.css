@@ -1,0 +1,28 @@
+#coin {
+    width: 100px;
+    position: absolute;
+}
+
+#guy {
+    position: absolute;
+}
+
+h1 {
+    text-align: right;
+}
+
+span{
+    display: inline-block;
+}
+
+span, #coin {
+    transition: transform 1s 0s linear;
+}
+
+.caught-span {
+    transform: scale(2) rotate(360deg);
+}
+
+.caught-coin {
+    transform: scale(2);
+}
